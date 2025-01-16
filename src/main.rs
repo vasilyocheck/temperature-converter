@@ -7,7 +7,7 @@ fn main() {
 
     let temperature = match conversion_direction.trim() {
         "1" => {
-            println!("We are going to convert Fahrenheit to Celcius");
+            println!("We are going to convert Fahrenheit to Celsius");
             &get_user_input("Please input the temperature in Fahrenheit to convert to Celsius:")
         },
         "2" => {
